@@ -3,6 +3,10 @@
     "module": "ESNext", // Asegúrate de usar ESM
     "moduleResolution": "node", // Resuelve módulos de forma similar a Node.js
     "target": "ESNext",
+    "noUnusedLocals": false,
+    "strict": false,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true
