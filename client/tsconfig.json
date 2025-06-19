@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Asegúrate de usar ESM
+    "moduleResolution": "node", // Resuelve módulos de forma similar a Node.js
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

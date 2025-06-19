@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Server Products</title>
+    <link rel="stylesheet" href="/client/src/index.css" />
+
+    <style>
+      .routes {
+        font-weight: 300;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(2, 2, 56);
+        margin-left: 10%;
+        margin-top: 8%;
+        text-decoration: none;
+
+        a {
+          color: rgb(23, 23, 123);
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: tomato;
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="routes">
+      <h1>Rutas disponibles</h1>
+      <ul>
+        <a href="/api/products/all_products">| Productos</a>
+        <a href="/api/categories/all_categories">| Categorias</a>
+        <a href="/api/blog/posts">| Blog</a>
+      </ul>
+    </div>
+  </body>
+</html>
