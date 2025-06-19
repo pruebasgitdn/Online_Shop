@@ -70,7 +70,7 @@ const Register = () => {
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: "http://localhost:5173/complete-profile",
+          redirectTo: import.meta.env.VITE_CLIENT_ORIGIN + "/complete-profile",
         },
       });
 
