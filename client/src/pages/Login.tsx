@@ -114,8 +114,7 @@ const Login = () => {
             rounded-md shadow-2xl shadow-slate-400 p-4 gap-4
             flex flex-col h-auto
             col-span-12 justify-center
-            m-2
-        "
+            m-2"
         >
           <form
             action=""
